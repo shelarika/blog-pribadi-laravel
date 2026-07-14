@@ -1,59 +1,132 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🌸 Blog Pribadi Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📖 Tentang Project
 
-## About Laravel
+**Blog Pribadi Laravel** merupakan aplikasi website blog yang mengusung tema **Teknologi Informasi**. Website ini dikembangkan menggunakan framework Laravel sebagai media untuk mempublikasikan artikel dan berbagi informasi mengenai berbagai bidang teknologi.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Artikel yang dipublikasikan dikelompokkan ke dalam beberapa kategori, yaitu **Web Development**, **Cyber Security**, **Database**, **Cloud Computing**, dan **Artificial Intelligence**. Dengan adanya kategori tersebut, pembaca dapat lebih mudah menemukan artikel sesuai dengan topik yang diminati.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Website ini menyediakan halaman publik yang dapat diakses oleh pengunjung untuk membaca artikel, serta halaman administrator yang digunakan untuk mengelola kategori dan artikel. Project ini dibuat sebagai salah satu tugas mata kuliah **Pemrograman Web Lanjut** pada Program Studi Teknik Informatika Universitas Malikussaleh.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ Fitur Utama
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 🔐 Login
+Fitur autentikasi yang digunakan agar administrator dapat masuk ke dalam sistem menggunakan akun yang telah terdaftar.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 📊 Dashboard
+Halaman utama administrator yang ditampilkan setelah berhasil login. Dashboard digunakan sebagai pusat navigasi untuk mengakses dan mengelola seluruh fitur yang tersedia.
 
-## Laravel Sponsors
+### 🌐 Blog Pribadi
+Halaman publik yang menampilkan daftar artikel bertema teknologi. Pengunjung dapat melihat informasi artikel serta membaca isi artikel secara lengkap.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 📂 Kategori
+Fitur yang digunakan untuk mengelola kategori artikel. Administrator dapat menambahkan, mengubah, menghapus, dan melihat daftar kategori yang digunakan pada artikel.
 
-### Premium Partners
+Kategori yang tersedia meliputi:
+- Web Development
+- Cyber Security
+- Database
+- Cloud Computing
+- Artificial Intelligence
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 📝 Artikel
+Fitur yang digunakan untuk mengelola artikel blog. Administrator dapat menambahkan artikel baru, mengubah isi artikel, menghapus artikel, menentukan kategori artikel, serta mengunggah thumbnail sebelum artikel dipublikasikan.
 
-## Contributing
+### 👤 Profil
+Fitur yang digunakan untuk mengelola informasi akun administrator, seperti mengubah nama, alamat email, dan kata sandi.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🚪 Logout
+Fitur yang digunakan untuk keluar dari sistem sehingga keamanan akun administrator tetap terjaga.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🛠️ Teknologi yang Digunakan
 
-## Security Vulnerabilities
+- Laravel
+- PHP
+- HTML5
+- CSS3
+- JavaScript
+- Blade Template
+- SQLite
+- Git
+- GitHub
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🚀 Cara Menjalankan Project
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Clone repository
+
+```bash
+git clone https://github.com/shelarika/blog-pribadi-laravel.git
+```
+
+2. Masuk ke folder project
+
+```bash
+cd blog-pribadi-laravel
+```
+
+3. Install dependency
+
+```bash
+composer install
+npm install
+```
+
+4. Salin file environment
+
+```bash
+cp .env.example .env
+```
+
+5. Generate application key
+
+```bash
+php artisan key:generate
+```
+
+6. Jalankan migration
+
+```bash
+php artisan migrate
+```
+
+7. Jalankan server
+
+```bash
+php artisan serve
+```
+
+8. Buka browser
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 👩‍💻 Developer
+
+**Nama:** Shela Rika
+
+**NIM:** 240170032
+
+**Program Studi:** Teknik Informatika
+
+**Universitas:** Universitas Malikussaleh
+
+---
+
+## 🎯 Tujuan Pengembangan
+
+Project ini dikembangkan sebagai salah satu tugas mata kuliah **Pemrograman Web Lanjut** dengan tujuan menerapkan konsep pengembangan aplikasi web menggunakan framework Laravel, mulai dari autentikasi pengguna, pengelolaan kategori dan artikel, hingga penyajian halaman blog yang dapat diakses oleh pengunjung.
+
+---
+
+## 📄 Lisensi
+
+Project ini dibuat untuk keperluan pembelajaran dan tugas akademik di Program Studi Teknik Informatika Universitas Malikussaleh.
