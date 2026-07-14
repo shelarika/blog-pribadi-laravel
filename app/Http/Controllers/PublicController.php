@@ -33,7 +33,7 @@ class PublicController extends Controller
     public function show($slug)
     {
         $article = Article::where('slug', $slug)
-            ->with(['user', 'category'])
+            ->with(['user', 'category', 'comments'])
             ->firstOrFail();
 
         return view('blog.show', compact('article'));
