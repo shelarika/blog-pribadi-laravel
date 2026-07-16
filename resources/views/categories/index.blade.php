@@ -124,7 +124,7 @@ body{
 
 <div>
 
-<h2>👋 Halo, {{ Auth::user()->name }} 🌸</h2>
+<h2>📂 Manajemen Kategori</h2>
 
 <p>
 Selamat datang di halaman kategori.
